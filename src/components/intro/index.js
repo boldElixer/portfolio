@@ -28,7 +28,7 @@ function Intro() {
             <div className='left-content'>
                 <p className='common'>Hey, I'm</p>
                 <p className='name'>Ashwin Korade</p>
-                <p className='common'><i>(BoldElixer)</i></p>
+                <p className='common'><i>(boldElixer)</i></p>
                 <p className='desc'>Challenges make life interesting and overcoming them makes life meaningful. A dedicated and organized individual who strives to learn newer skills and upscale them.</p>
                 <div className='social'>
                     <a href="https://github.com/boldElixer" target="_blank"><i class="fa fa-github"></i></a>
