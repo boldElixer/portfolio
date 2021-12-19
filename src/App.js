@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/contact">
             <Contact />
           </Route>
-          <Route exact path="/">
+          <Route path="/">
             <Intro />
           </Route>
         </Switch>
