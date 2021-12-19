@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.main-home {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.left-content {
+    width: 35%;
+}
+.common {
+    font-size: 3rem;
+}
+.name {
+    font-size: 6rem;
+    font-weight: 600;
+}
+.desc {
+    font-size: 2rem;
+}
+.homelogo {
+    width: 60rem;
+}
+
+.social {
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.social>a {
+    text-decoration: none;
+    font-size: 3rem;
+    color: black;
+}
+.fa:hover{
+    cursor: pointer;
+    font-size: 3.2rem;
+}
+
+.fa-github:hover {
+    color: #1D202D	;
+}
+.fa-linkedin:hover {
+    color: #0A66C2;
+}
+.fa-facebook:hover {
+    color: #3B5998;
+}
+.fa-instagram:hover {
+    color: #E1306C;
+}
+.fa-google:hover {
+    color: #FF0000;
+}
+
+.what {
+    padding: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DAE7EF;
+}
+.what_head{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 600;
+    padding-bottom: 4rem;
+}
+
+.divider {
+    height: 10vh;
+}
+.webd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+.left_webd {
+    display: flex;
+    flex: 1;
+    gap: 5rem;
+    flex-wrap: wrap;
+    font-size: 6rem;
+    justify-content: center;
+}
+.right_webd {
+    flex: 1;
+}
+.right_webd>h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.right_webd>p {
+    font-size: 2rem;
+}
+.link_project>a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2196F3;
+}
+.left_webd>a{
+    font-size: 7rem;
+}

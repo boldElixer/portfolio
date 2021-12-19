@@ -1,0 +1,19 @@
+.About {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem 10rem;
+}
+.About>img {
+    float: right;
+    height: 45rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.about_content {
+    font-size: 2rem;
+    line-height: 1.4;
+}
+.about_head {
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
