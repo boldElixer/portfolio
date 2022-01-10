@@ -14,16 +14,16 @@ function App() {
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route exact path="/about">
+          <Route exact path="/portfolio/about">
             <About />
           </Route>
-          <Route exact path="/projects">
+          <Route exact path="/portfolio/projects">
             <Project />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/portfolio/contact">
             <Contact />
           </Route>
-          <Route path="/">
+          <Route path="/portfolio">
             <Intro />
           </Route>
         </Switch>

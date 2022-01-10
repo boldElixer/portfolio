@@ -15,22 +15,22 @@ function Navbar() {
             <nav>
                 <ul className={click ? "mobile" : "not-mobile"}>
                     <li>
-                        <Link to="/" className='nav-item'>
+                        <Link to="/portfolio" className='nav-item'>
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link to="/about" className='nav-item'>
+                        <Link to="/portfolio/about" className='nav-item'>
                             About Me
                         </Link>
                     </li>
                     <li>
-                        <Link to="/projects" className='nav-item'>
+                        <Link to="/portfolio/projects" className='nav-item'>
                             Projects
                         </Link>
                     </li>
                     <li>
-                        <Link to="/contact" className='nav-item'>
+                        <Link to="/portfolio/contact" className='nav-item'>
                             Contact
                         </Link>
                     </li>
