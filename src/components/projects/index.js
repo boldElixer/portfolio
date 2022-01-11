@@ -39,8 +39,9 @@ function Project() {
                     </div>
                 </div>
                 <div className='divider'></div>
-                <div className='ongoing' data-aos="slide-left" data-aos-once="true">
-                    <div className='proj_card mini'>
+                <div className='ongoing mini' data-aos="slide-left" data-aos-once="true">
+                    <div className='proj_head'><IoChevronBack />Small Fun Projects</div>
+                    <div className='proj_card'>
                         <a href="https://quoterrr.netlify.app/" target="_blank">
                             <div className='card'>
                             <p>Quote Generator</p>
@@ -52,7 +53,6 @@ function Project() {
                             </div>
                         </a>
                     </div>
-                    <div className='proj_head'><IoChevronBack />Small Fun Projects</div>
                 </div>
             </div>
         </div>

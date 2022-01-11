@@ -25,26 +25,26 @@ function Intro() {
     return (
         <div>
             <div className='main-home'>
-            <div className='left-content'>
-                <p className='common'>Hey, I'm</p>
-                <p className='name'>Ashwin Korade</p>
-                <p className='common'><i>(boldElixer)</i></p>
-                <p className='desc'>Challenges make life interesting and overcoming them makes life meaningful. A dedicated and organized individual who strives to learn newer skills and upscale them.</p>
-                <div className='social'>
-                    <a href="https://github.com/boldElixer" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ashwin-korade-7a7ba120a/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    <a href = "mailto: ashwinsrk77@gmail.com"><i class="fa fa-google"></i></a>
-                    <a href="https://www.facebook.com/ashwin.korade.7/" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/ashwin101/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <div className='left-content'>
+                    <p className='common'>Hey, I'm</p>
+                    <p className='name'>Ashwin Korade</p>
+                    <p className='common'><i>(boldElixer)</i></p>
+                    <p className='desc'>Challenges make life interesting and overcoming them makes life meaningful. A dedicated and organized individual who strives to learn newer skills and upscale them.</p>
+                    <div className='social'>
+                        <a href="https://github.com/boldElixer" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ashwin-korade-7a7ba120a/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href = "mailto: ashwinsrk77@gmail.com"><i class="fa fa-google"></i></a>
+                        <a href="https://www.facebook.com/ashwin.korade.7/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ashwin101/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div className='right-content'>
-                <img draggable="false" src={homelogo} className='homelogo'/>
-            </div>
+                <div className='right-content'>
+                    <img draggable="false" src={homelogo} className='homelogo'/>
+                </div>
             </div>
             <div className='what'>
                 <p className='what_head'>What I do?</p>
-                <div className='webd'>
+                <div className='webd mini_webd'>
                     <div className='left_webd' data-aos="slide-right" data-aos-once="true">
                         <FaHtml5 color='#E34F26' title="HTML 5"/>
                         <FaCss3Alt color='#1572B6' title="CSS"/>
@@ -69,13 +69,14 @@ function Intro() {
                             Competitive Programming
                         </h2><br/>
                         <p>Another of my favourite hobbies is to solve questions in the hunger of getting that <i>AC</i>. Sometimes rework it for reduced space and time complexity.</p>
+                        <br/><p className='link_project'><a href="https://codeforces.com/profile/koraash" target="_blank" className='proj_link'>My Profile<FcNext /></a></p>
                     </div>
                     <div className='left_webd' data-aos="slide-left" data-aos-once="true">
                         <a href="https://codeforces.com/profile/koraash" target="_blank">
-                            <img src={ cf } title="View Profile"/>
+                            <img src={ cf } title="Click to view Profile!"/>
                         </a>
                         <a href="https://www.codechef.com/users/ashk_00" target="_blank">
-                            <SiCodechef color='#743E1D' title="View Profile"/>
+                            <SiCodechef color='#743E1D' title="Click to view Profile!"/>
                         </a>
                     </div>
                 </div>

@@ -4,9 +4,12 @@
 }
 .About>img {
     float: right;
-    height: 45rem;
+    max-height: 40rem;
     padding-left: 7rem;
     padding-right: 7rem;
+}
+#about_mobile {
+    display: none;
 }
 .about_content {
     font-size: 2rem;
@@ -16,4 +19,21 @@
     font-size: 4rem;
     font-weight: 600;
     padding-bottom: 1rem;
+}
+
+@media(max-width: 50em) {
+    .About {
+        padding: 2rem;
+    }
+    #about_not {
+        display: none;
+    }
+    #about_mobile {
+        float: unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 }

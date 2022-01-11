@@ -4,7 +4,6 @@
     font-family: 'Montserrat', sans-serif;
     padding: 5rem;
     background-color: #DBE8F0;
-    height: 65vh;
 }
 .contact_social {
     justify-content: center;
@@ -39,4 +38,11 @@
     color: white;
     font-weight: 600;
     cursor: pointer;
+}
+
+@media(max-width: 50em) {
+    .contact {
+        flex-direction: column;
+        padding: 2rem;
+    }
 }
