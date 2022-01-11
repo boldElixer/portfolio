@@ -59,7 +59,7 @@ function Intro() {
                     <div className='right_webd' data-aos="slide-left" data-aos-once="true">
                         <h2>Web Development</h2><br/>
                         <p>Love to code things from scratch in developing responsive Front-end websites mainly in React. Application backend using Node and Express.</p>
-                        <br/><p className='link_project'><Link to="/projects" className='proj_link'>My Projects<FcNext /></Link></p>
+                        <br/><p className='link_project'><Link to="/portfolio/projects" className='proj_link'>My Projects<FcNext /></Link></p>
                     </div>
                 </div>
                 <div className='divider'></div>
