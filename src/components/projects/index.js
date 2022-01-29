@@ -26,6 +26,11 @@ function Project() {
                 <div className='ongoing' data-aos="slide-right" data-aos-once="true">
                     <div className='proj_head'>Ongoing Projects&nbsp;<FcNext /></div>
                     <div className='proj_card'>
+                        <a href="https://blocsoc.netlify.app/" target="_blank">
+                            <div className='card'>
+                            <p>BlocSoc IIT Roorkee</p>
+                            </div>
+                        </a>
                         <a href="https://asme-iitr-dev.netlify.app/" target="_blank">
                             <div className='card'>
                             <p>ASME IIT Roorkee Chapter</p>
