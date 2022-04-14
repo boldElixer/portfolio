@@ -7,6 +7,7 @@ import Footer from "./components/footer"
 import Contact from "./components/contact";
 import About from "./components/about";
 import Project from "./components/projects";
+import Intern from './components/intern';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route exact path="/portfolio/projects">
             <Project />
+          </Route>
+          <Route exact path="/portfolio/intern-diaries">
+            <Intern />
           </Route>
           <Route exact path="/portfolio/contact">
             <Contact />

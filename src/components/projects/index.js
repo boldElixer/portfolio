@@ -31,7 +31,7 @@ function Project() {
                             <p>BlocSoc IIT Roorkee</p>
                             </div>
                         </a>
-                        <a href="https://asme-iitr-dev.netlify.app/" target="_blank">
+                        <a href="https://iitr.ac.in/asme/" target="_blank">
                             <div className='card'>
                             <p>ASME IIT Roorkee Chapter</p>
                             </div>
@@ -39,6 +39,16 @@ function Project() {
                         <a href="https://talkthattalk.in/" target="_blank">
                             <div className='card'>
                             <p>Talk That Talk</p>
+                            </div>
+                        </a>
+                        <a href="https://govindbhawan.netlify.app/" target="_blank">
+                            <div className='card'>
+                            <p>Govind Bhawan IITR</p>
+                            </div>
+                        </a>
+                        <a href="https://online-dir.signo.in/" target="_blank">
+                            <div className='card'>
+                            <p>Signo Driver Directory</p>
                             </div>
                         </a>
                     </div>

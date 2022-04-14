@@ -30,6 +30,11 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
+                        <Link to="/portfolio/intern-diaries" className='nav-item'>
+                            Intern Diaries
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="/portfolio/contact" className='nav-item'>
                             Contact
                         </Link>

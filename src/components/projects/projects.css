@@ -29,6 +29,7 @@
 .proj_card {
     display: flex;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 .proj_card>a {
     text-decoration: none;
