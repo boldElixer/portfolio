@@ -4,7 +4,7 @@ import './intern.css';
 function Intern() {
     return (
         <div className="coming">
-            Comming Soon...
+            Coming Soon...
         </div>
     )
 }

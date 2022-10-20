@@ -19,7 +19,7 @@ function contact() {
                 <div className='right_contact'>
                     <h2>Contact Me</h2>
                     <p className='con_com'>If anyone from IITR is stumbled here, you can reach me at:</p>
-                    <p>BF-25, Govind Bhawan</p>
+                    <p>BF-24, Govind Bhawan</p>
                     <p>Indian Institute of Technology, Roorkee</p>
                     <p>Roorkee, Uttarakhand</p>
                     <p>INDIA - 247667</p>
